@@ -19,8 +19,10 @@ public class Automation {
 		driver.get("http://demo.automationtesting.in/Register.html");
 
 		driver.findElement(By.xpath("//input[@placeholder=\"First Name\"]")).sendKeys("Hima");
+		
 		driver.findElement(By.xpath("//input[@placeholder=\"Last Name\"]")).sendKeys("Bindu");
 		
+		driver.findElement(By.xpath("//input[@type=\"email\"]")).sendKeys("mgasyugvu");
 
 }
 }
